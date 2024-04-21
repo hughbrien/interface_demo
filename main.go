@@ -4,8 +4,10 @@ import (
 	"fmt"
 )
 
-func main() {
+func preview() {
+	fmt.Println("Here is a Preview")
+}
 
-	fmt.Println("HelloWorld", "Is", "The", "End")
-
+func smile() {
+	fmt.Println("Here is a Smile")
 }
